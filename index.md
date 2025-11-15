@@ -61,8 +61,10 @@
 
     <h3>Why this matters</h3>
     <p>
-        A victim is a victim — financial, legal, medical or emotional. Justice must never depend on money, status or
-        representation. Everyday Advocacy is here to support those who deserve clarity, fairness and dignity.
+        A victim is a victim, whether it be financial, legal, medical or emotional. 
+        Everyday Advocacy believes justice must never depend on money, status or
+ representation. Everyday Advocacy is here to support those who deserve clarity, fairness and dignity. 
+ We are not solicitors, nor do we purport to be. We aim to create awareness and self-empowerment so that you can take back control.  
     </p>
 </main>
 
