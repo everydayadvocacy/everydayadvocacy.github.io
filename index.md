@@ -29,6 +29,14 @@
             border-radius: 8px;
         }
 
+     lead {
+         font-size: 1.3em;
+         font-weight: 600;
+         margin-top: 10px;
+         margin-bottom: 15px;
+       }
+
+
         footer {
             text-align: center;
             padding: 20px;
@@ -47,9 +55,9 @@
 
 <main>
     <h2>Welcome</h2>
-    <p>
-        <h2>This platform exists to restore fairness in a system where fear, confusion and imbalance too often rule.</h2>
-        
+    
+        <P class="lead">This platform exists to restore fairness in a system where fear, confusion and imbalance too often rule...</p>
+  <P>
         Everyday Advocacy is built for real people facing real pressures — from debt collection to council tax issues,
         housing problems, and everyday legal challenges.
     </p>
