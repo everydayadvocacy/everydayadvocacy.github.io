@@ -1,66 +1,102 @@
-/* --------------- GLOBAL RESET --------------- */
-
+/* ===== GLOBAL RESET ===== */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* ===== BASE BODY ===== */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: #ffffff;
-    color: #000000;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
     line-height: 1.6;
 }
 
-/* --------------- HEADER --------------- */
-
-header {
-    background-color: #000000; /* black bar */
-    padding: 10px 20px;
-}
-
-.header-container {
+/* ===== NAVIGATION BAR ===== */
+.navbar {
+    background: #222;
+    color: #fff;
+    padding: 12px 25px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-/* Logo: left aligned, correct size, NOT inverted */
-.logo {
-    height: 70px;
-    width: auto;
-    filter: none;
+.nav-left {
+    font-size: 1.3em;
+    font-weight: bold;
 }
 
-/* --------------- NAVIGATION BAR --------------- */
+.nav-center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
 
-.navbar ul {
+.nav-links {
     list-style: none;
     display: flex;
     gap: 25px;
 }
 
-.navbar a {
+.nav-links a {
     color: white;
     text-decoration: none;
-    font-size: 18px;
-    transition: color 0.2s ease-in-out;
+    font-size: 1em;
 }
 
-.navbar a:hover {
-    color: #04b4ff; /* optional hover colour */
+.nav-links a:hover {
+    text-decoration: underline;
 }
 
-/* --------------- MAIN CONTENT --------------- */
-
-main {
+/* ===== HEADER ===== */
+header {
+    background: #222;
+    color: #fff;
     padding: 40px 20px;
-    max-width: 900px;
-    margin: auto;
+    text-align: center;
 }
 
-h1 {
-    margin-bottom: 15px;
-    font-size: 32px;
+/* ===== MAIN CONTENT AREA ===== */
+main {
+    max-width: 900px;
+    background: #fff;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* ===== HEADINGS ===== */
+h2.strike {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* ===== RESPONSIVE MOBILE NAV ===== */
+@media (max-width: 700px) {
+
+    .nav-links {
+        gap: 12px;
+        font-size: 0.9em;
+    }
+
+    .nav-left {
+        font-size: 1.1em;
+    }
+
+    main {
+        margin: 15px;
+        padding: 15px;
+    }
 }
