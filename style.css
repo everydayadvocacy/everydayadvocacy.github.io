@@ -52,6 +52,16 @@ body {
 
 /* ===== HEADER ===== */
 
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    background: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+}
+
 .header-logo {
     height: 60px;
     width: auto;
