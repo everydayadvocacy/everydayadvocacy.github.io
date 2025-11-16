@@ -57,13 +57,35 @@
             text-decoration: underline;
         }
 
-        /* HEADER */
-        header {
-            background: #222;
-            color: #fff;
-            padding: 40px 20px;
-            text-align: center;
-        }
+       /* ===== HEADER ===== */
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    background: #222;       /* DARK background */
+    color: #fff;            /* LIGHT text */
+    border-bottom: 1px solid #111;
+}
+
+.header-logo {
+    height: 70px;           /* Adjust logo size */
+    width: auto;
+    display: block;
+}
+
+.header-text h1 {
+    margin: 0;
+    font-size: 2.2em;       /* Make title visible & bold */
+    color: #fff;            /* Force white */
+}
+
+.header-text p {
+    margin: 0;
+    font-size: 1.1em;
+    color: #ddd;            /* Softer white for tagline */
+}
 
         /* MAIN CONTENT */
         main {
