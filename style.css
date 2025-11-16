@@ -51,6 +51,12 @@ body {
 }
 
 /* ===== HEADER ===== */
+
+.header-logo {
+    height: 60px;
+    width: auto;
+    margin-right: 15px;
+}
 /* Header with logo */
 .site-header {
     display: flex;
