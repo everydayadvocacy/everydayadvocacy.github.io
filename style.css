@@ -51,11 +51,32 @@ body {
 }
 
 /* ===== HEADER ===== */
-header {
+/* Header with logo */
+.site-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
     background: #222;
     color: #fff;
-    padding: 40px 20px;
-    text-align: center;
+    padding: 20px;
+}
+
+/* Logo image */
+.header-logo {
+    height: 50px;
+    width: auto;
+    display: block;
+}
+
+/* Title text */
+.header-text h1 {
+    margin: 0;
+}
+
+.header-text p {
+    margin: 0;
+    font-size: 0.95em;
+    opacity: 0.8;
 }
 
 /* ===== MAIN CONTENT AREA ===== */
